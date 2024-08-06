@@ -77,7 +77,11 @@ struct LongPressGesture: View {
                     .foregroundStyle(.white)
                     .padding()
                     .background(Color.black)
-                .cornerRadius(10)
+                    .cornerRadius(10)
+                    .onTapGesture {
+                        isComplete = false
+                        isSuccess = false
+                    }
             }
             
             Spacer()
