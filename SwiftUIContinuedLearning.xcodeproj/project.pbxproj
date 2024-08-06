@@ -12,6 +12,7 @@
 		852ED4042C6073A80065225F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852ED4032C6073A80065225F /* Assets.xcassets */; };
 		852ED4072C6073A80065225F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852ED4062C6073A80065225F /* Preview Assets.xcassets */; };
 		852ED40E2C6074270065225F /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED40D2C6074270065225F /* LongPressGesture.swift */; };
+		852ED4102C61B5630065225F /* MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED40F2C61B5630065225F /* MagnificationGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		852ED4032C6073A80065225F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		852ED4062C6073A80065225F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		852ED40D2C6074270065225F /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		852ED40F2C61B5630065225F /* MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				852ED3FF2C6073A50065225F /* SwiftUIContinuedLearningApp.swift */,
 				852ED4012C6073A50065225F /* ContentView.swift */,
 				852ED40D2C6074270065225F /* LongPressGesture.swift */,
+				852ED40F2C61B5630065225F /* MagnificationGesture.swift */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				852ED4022C6073A50065225F /* ContentView.swift in Sources */,
+				852ED4102C61B5630065225F /* MagnificationGesture.swift in Sources */,
 				852ED4002C6073A50065225F /* SwiftUIContinuedLearningApp.swift in Sources */,
 				852ED40E2C6074270065225F /* LongPressGesture.swift in Sources */,
 			);
