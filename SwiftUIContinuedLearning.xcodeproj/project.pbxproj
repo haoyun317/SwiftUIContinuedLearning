@@ -15,6 +15,7 @@
 		852ED4102C61B5630065225F /* MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED40F2C61B5630065225F /* MagnificationGesture.swift */; };
 		852ED4122C6306E80065225F /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED4112C6306E80065225F /* RotationGestureBootcamp.swift */; };
 		852ED4142C630BCF0065225F /* DragGustureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED4132C630BCF0065225F /* DragGustureBootcamp.swift */; };
+		852ED4162C631A130065225F /* DragGesture2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED4152C631A130065225F /* DragGesture2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		852ED40F2C61B5630065225F /* MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture.swift; sourceTree = "<group>"; };
 		852ED4112C6306E80065225F /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		852ED4132C630BCF0065225F /* DragGustureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGustureBootcamp.swift; sourceTree = "<group>"; };
+		852ED4152C631A130065225F /* DragGesture2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				852ED40F2C61B5630065225F /* MagnificationGesture.swift */,
 				852ED4112C6306E80065225F /* RotationGestureBootcamp.swift */,
 				852ED4132C630BCF0065225F /* DragGustureBootcamp.swift */,
+				852ED4152C631A130065225F /* DragGesture2.swift */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 			files = (
 				852ED4022C6073A50065225F /* ContentView.swift in Sources */,
 				852ED4102C61B5630065225F /* MagnificationGesture.swift in Sources */,
+				852ED4162C631A130065225F /* DragGesture2.swift in Sources */,
 				852ED4142C630BCF0065225F /* DragGustureBootcamp.swift in Sources */,
 				852ED4002C6073A50065225F /* SwiftUIContinuedLearningApp.swift in Sources */,
 				852ED40E2C6074270065225F /* LongPressGesture.swift in Sources */,
