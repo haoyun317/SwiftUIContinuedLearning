@@ -16,6 +16,7 @@
 		852ED4122C6306E80065225F /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED4112C6306E80065225F /* RotationGestureBootcamp.swift */; };
 		852ED4142C630BCF0065225F /* DragGustureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED4132C630BCF0065225F /* DragGustureBootcamp.swift */; };
 		852ED4162C631A130065225F /* DragGesture2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED4152C631A130065225F /* DragGesture2.swift */; };
+		85AECE062C6453F10094FB59 /* ScrollViewReaderBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE052C6453F10094FB59 /* ScrollViewReaderBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		852ED4112C6306E80065225F /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		852ED4132C630BCF0065225F /* DragGustureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGustureBootcamp.swift; sourceTree = "<group>"; };
 		852ED4152C631A130065225F /* DragGesture2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture2.swift; sourceTree = "<group>"; };
+		85AECE052C6453F10094FB59 /* ScrollViewReaderBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				852ED4112C6306E80065225F /* RotationGestureBootcamp.swift */,
 				852ED4132C630BCF0065225F /* DragGustureBootcamp.swift */,
 				852ED4152C631A130065225F /* DragGesture2.swift */,
+				85AECE052C6453F10094FB59 /* ScrollViewReaderBcamp.swift */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
 			);
@@ -158,6 +161,7 @@
 				852ED4142C630BCF0065225F /* DragGustureBootcamp.swift in Sources */,
 				852ED4002C6073A50065225F /* SwiftUIContinuedLearningApp.swift in Sources */,
 				852ED40E2C6074270065225F /* LongPressGesture.swift in Sources */,
+				85AECE062C6453F10094FB59 /* ScrollViewReaderBcamp.swift in Sources */,
 				852ED4122C6306E80065225F /* RotationGestureBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
