@@ -16,8 +16,10 @@ struct ScrollViewReaderBcamp: View {
             // 一樣的上下完全一下
             ScrollViewReader { proxy in
                 Button("Click here to go to #30") {
-                   // proxy.scrollTo(id: Hashable, anchor: UnitPoint?)
-                    proxy.scrollTo(30, anchor: .top)
+                    withAnimation(.spring()) {
+                        // proxy.scrollTo(id: Hashable, anchor: UnitPoint?)
+                         proxy.scrollTo(30, anchor: .top)
+                    }
                 }
                 
                 ForEach(0..<50) { index in
