@@ -4,6 +4,7 @@
 //
 //  Created by  謝皓昀 on 2024/8/8.
 //
+// [Note} 適合支持畫面縱向與橫向模式才使用，似乎很消耗算力
 
 import SwiftUI
 
