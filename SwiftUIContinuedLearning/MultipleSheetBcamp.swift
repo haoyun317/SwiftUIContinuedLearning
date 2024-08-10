@@ -13,6 +13,10 @@ struct RandomModel: Identifiable {
      
 }
 
+//1 - use a binding
+//2 - use multiple .sheets
+//3 - use $item
+
 struct MultipleSheetBcamp: View {
     
     @State var selectedModel: RandomModel = RandomModel(title: "Strat Model")
@@ -30,14 +34,14 @@ struct MultipleSheetBcamp: View {
             }
         }
         .sheet(isPresented: $showSheet, content: {
-            NextScreen(selectedModel: selectedModel)
+            NextScreen(selectedModel: $selectedModel)
         })
     }
 }
 
 struct NextScreen: View {
     
-    let selectedModel: RandomModel
+    @Binding var selectedModel: RandomModel
     
     var body: some View {
         Text(selectedModel.title)
