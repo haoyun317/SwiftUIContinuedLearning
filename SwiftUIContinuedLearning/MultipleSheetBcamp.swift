@@ -21,27 +21,31 @@ struct MultipleSheetBcamp: View {
     
     @State var selectedModel: RandomModel = RandomModel(title: "Strat Model")
     @State var showSheet: Bool = false
+    @State var showSheet2: Bool = false
     
     var body: some View {
         VStack(spacing: 20) {
             Button("Button 1") {
-                selectedModel = RandomModel(title: "One")
+                //selectedModel = RandomModel(title: "One")
                 showSheet.toggle()
             }
             Button("Button 2") {
-                selectedModel = RandomModel(title: "Two")
-                showSheet.toggle()
+                //selectedModel = RandomModel(title: "Two")
+                showSheet2.toggle()
             }
+            .sheet(isPresented: $showSheet2, content: {
+                NextScreen(selectedModel: RandomModel(title: "Two"))
+            })
         }
         .sheet(isPresented: $showSheet, content: {
-            NextScreen(selectedModel: $selectedModel)
+            NextScreen(selectedModel: selectedModel)
         })
     }
 }
 
 struct NextScreen: View {
     
-    @Binding var selectedModel: RandomModel
+    let selectedModel: RandomModel
     
     var body: some View {
         Text(selectedModel.title)
