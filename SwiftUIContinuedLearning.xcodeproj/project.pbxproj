@@ -19,6 +19,7 @@
 		85AECE062C6453F10094FB59 /* ScrollViewReaderBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE052C6453F10094FB59 /* ScrollViewReaderBcamp.swift */; };
 		85AECE082C6470200094FB59 /* GeometryReaderBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE072C6470200094FB59 /* GeometryReaderBcamp.swift */; };
 		85AECE242C66F62D0094FB59 /* MultipleSheetBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE232C66F62D0094FB59 /* MultipleSheetBcamp.swift */; };
+		85AECE262C6707270094FB59 /* MaskBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE252C6707270094FB59 /* MaskBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		85AECE052C6453F10094FB59 /* ScrollViewReaderBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBcamp.swift; sourceTree = "<group>"; };
 		85AECE072C6470200094FB59 /* GeometryReaderBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBcamp.swift; sourceTree = "<group>"; };
 		85AECE232C66F62D0094FB59 /* MultipleSheetBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetBcamp.swift; sourceTree = "<group>"; };
+		85AECE252C6707270094FB59 /* MaskBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				85AECE052C6453F10094FB59 /* ScrollViewReaderBcamp.swift */,
 				85AECE072C6470200094FB59 /* GeometryReaderBcamp.swift */,
 				85AECE232C66F62D0094FB59 /* MultipleSheetBcamp.swift */,
+				85AECE252C6707270094FB59 /* MaskBcamp.swift */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
 			);
@@ -166,6 +169,7 @@
 				852ED4102C61B5630065225F /* MagnificationGesture.swift in Sources */,
 				852ED4162C631A130065225F /* DragGesture2.swift in Sources */,
 				852ED4142C630BCF0065225F /* DragGustureBootcamp.swift in Sources */,
+				85AECE262C6707270094FB59 /* MaskBcamp.swift in Sources */,
 				852ED4002C6073A50065225F /* SwiftUIContinuedLearningApp.swift in Sources */,
 				852ED40E2C6074270065225F /* LongPressGesture.swift in Sources */,
 				85AECE242C66F62D0094FB59 /* MultipleSheetBcamp.swift in Sources */,
