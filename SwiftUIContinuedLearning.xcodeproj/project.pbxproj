@@ -24,6 +24,7 @@
 		85AECE482C68568A0094FB59 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85AECE462C68568A0094FB59 /* badum.mp3 */; };
 		85AECE492C68568A0094FB59 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85AECE472C68568A0094FB59 /* tada.mp3 */; };
 		85AECE4B2C685EAE0094FB59 /* HapticsBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE4A2C685EAE0094FB59 /* HapticsBcamp.swift */; };
+		85AECE4F2C699FF60094FB59 /* LocalNotificationBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE4E2C699FF60094FB59 /* LocalNotificationBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		85AECE462C68568A0094FB59 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		85AECE472C68568A0094FB59 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		85AECE4A2C685EAE0094FB59 /* HapticsBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBcamp.swift; sourceTree = "<group>"; };
+		85AECE4E2C699FF60094FB59 /* LocalNotificationBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				85AECE252C6707270094FB59 /* MaskBcamp.swift */,
 				85AECE432C6852110094FB59 /* SoundsBcamp.swift */,
 				85AECE4A2C685EAE0094FB59 /* HapticsBcamp.swift */,
+				85AECE4E2C699FF60094FB59 /* LocalNotificationBcamp.swift */,
 				85AECE452C6856640094FB59 /* Sounds */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
@@ -186,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85AECE4F2C699FF60094FB59 /* LocalNotificationBcamp.swift in Sources */,
 				85AECE4B2C685EAE0094FB59 /* HapticsBcamp.swift in Sources */,
 				85AECE082C6470200094FB59 /* GeometryReaderBcamp.swift in Sources */,
 				852ED4022C6073A50065225F /* ContentView.swift in Sources */,
