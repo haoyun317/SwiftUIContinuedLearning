@@ -19,6 +19,7 @@ class ArrayModificationViewModel: ObservableObject {
     @Published var dataArray: [UserModel] = []
     @Published var filterArray: [UserModel] = []
     @Published var mappedArray: [String] = []
+    @Published var mappedIntArray: [String] = []
     
     init() {
         getUser()
@@ -50,7 +51,9 @@ class ArrayModificationViewModel: ObservableObject {
         filterArray = dataArray.filter({ $0.isVerified })
          
         // map
-        mappedArray = dataArray.map({ $0.name })
+        //mappedArray = dataArray.map({ $0.name })
+        mappedIntArray = dataArray.map({"\($0.points)"})
+// NOTE: dataArray可以換成其他filiteredArray等等，在原本基礎上再進行一次map
     }
 }
 
@@ -60,7 +63,7 @@ struct ArraysBcamp: View {
     var body: some View {
         ScrollView {
             VStack {
-                ForEach(vm.mappedArray, id: \.self) { name in
+                ForEach(vm.mappedIntArray, id: \.self) { name in
                     Text(name)
                         .font(.largeTitle)
                 }
