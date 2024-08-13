@@ -9,7 +9,7 @@ import SwiftUI
 
 struct UserModel: Identifiable {
     let id = UUID().uuidString
-    let name: String
+    let name: String?
     let points: Int
     let isVerified: Bool
 }
@@ -26,7 +26,7 @@ class ArrayModificationViewModel: ObservableObject {
         updateFilteredArray()
     }
     func getUser() {
-        let user1 = UserModel(name: "Alice", points: 1200, isVerified: true)
+        let user1 = UserModel(name: nil, points: 1200, isVerified: true)
         let user2 = UserModel(name: "Bob", points: 850, isVerified: false)
         let user3 = UserModel(name: "Charlie", points: 920, isVerified: true)
         let user4 = UserModel(name: "David", points: 430, isVerified: false)
@@ -47,13 +47,27 @@ class ArrayModificationViewModel: ObservableObject {
         filterArray = dataArray.sorted(by: {$0.points > $1.points})
          */
         // filter
-        
+        /*
         filterArray = dataArray.filter({ $0.isVerified })
-         
+        */
         // map
-        //mappedArray = dataArray.map({ $0.name })
-        mappedIntArray = dataArray.map({"\($0.points)"})
-// NOTE: dataArray可以換成其他filiteredArray等等，在原本基礎上再進行一次map
+        /*
+         //mappedArray = dataArray.map({ $0.name })
+         // NOTE: dataArray可以換成其他filiteredArray等等，在原本基礎上再進行一次map
+         //mappedIntArray = dataArray.map({"\($0.points)"})
+         
+         //compactMap 如果UserModel裡有 optional, 可以過濾掉 optional
+         mappedArray = dataArray.compactMap({ $0.name })
+         */
+        
+        let sort = dataArray.sorted(by: { $0.points > $1.points})
+        let filter = dataArray.filter({ $0.isVerified })
+        let map = dataArray.compactMap({ $0.name })
+        
+        mappedArray = dataArray
+            .sorted(by: { $0.points > $1.points})
+            .filter({ $0.isVerified })
+            .compactMap({ $0.name })
     }
 }
 
@@ -63,27 +77,27 @@ struct ArraysBcamp: View {
     var body: some View {
         ScrollView {
             VStack {
-                ForEach(vm.mappedIntArray, id: \.self) { name in
+                ForEach(vm.mappedArray, id: \.self) { name in
                     Text(name)
                         .font(.largeTitle)
                 }
-                ForEach(vm.filterArray) { user in
-                    VStack(alignment: .leading) {
-                        Text(user.name)
-                            .font(.headline)
-                        HStack {
-                            Text("point: \(user.points)")
-                            Spacer()
-                            if user.isVerified {
-                                Image(systemName: "flame.fill")
-                            }
-                        }
-                    }
-                    .foregroundStyle(.white)
-                    .padding()
-                    .background(Color.black.cornerRadius(10))
-                    .padding(.horizontal)
-                }
+//                ForEach(vm.filterArray) { user in
+//                    VStack(alignment: .leading) {
+//                        Text(user.name)
+//                            .font(.headline)
+//                        HStack {
+//                            Text("point: \(user.points)")
+//                            Spacer()
+//                            if user.isVerified {
+//                                Image(systemName: "flame.fill")
+//                            }
+//                        }
+//                    }
+//                    .foregroundStyle(.white)
+//                    .padding()
+//                    .background(Color.black.cornerRadius(10))
+//                    .padding(.horizontal)
+//                }
             }
         }
         Text("Hello, World!")
