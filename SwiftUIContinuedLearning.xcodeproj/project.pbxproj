@@ -25,6 +25,7 @@
 		85AECE492C68568A0094FB59 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85AECE472C68568A0094FB59 /* tada.mp3 */; };
 		85AECE4B2C685EAE0094FB59 /* HapticsBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE4A2C685EAE0094FB59 /* HapticsBcamp.swift */; };
 		85AECE4F2C699FF60094FB59 /* LocalNotificationBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE4E2C699FF60094FB59 /* LocalNotificationBcamp.swift */; };
+		85AECE512C6ADF200094FB59 /* HashableBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE502C6ADF200094FB59 /* HashableBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		85AECE472C68568A0094FB59 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		85AECE4A2C685EAE0094FB59 /* HapticsBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBcamp.swift; sourceTree = "<group>"; };
 		85AECE4E2C699FF60094FB59 /* LocalNotificationBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBcamp.swift; sourceTree = "<group>"; };
+		85AECE502C6ADF200094FB59 /* HashableBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				85AECE432C6852110094FB59 /* SoundsBcamp.swift */,
 				85AECE4A2C685EAE0094FB59 /* HapticsBcamp.swift */,
 				85AECE4E2C699FF60094FB59 /* LocalNotificationBcamp.swift */,
+				85AECE502C6ADF200094FB59 /* HashableBcamp.swift */,
 				85AECE452C6856640094FB59 /* Sounds */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
@@ -197,6 +200,7 @@
 				852ED4162C631A130065225F /* DragGesture2.swift in Sources */,
 				852ED4142C630BCF0065225F /* DragGustureBootcamp.swift in Sources */,
 				85AECE262C6707270094FB59 /* MaskBcamp.swift in Sources */,
+				85AECE512C6ADF200094FB59 /* HashableBcamp.swift in Sources */,
 				852ED4002C6073A50065225F /* SwiftUIContinuedLearningApp.swift in Sources */,
 				852ED40E2C6074270065225F /* LongPressGesture.swift in Sources */,
 				85AECE242C66F62D0094FB59 /* MultipleSheetBcamp.swift in Sources */,
