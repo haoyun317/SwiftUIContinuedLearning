@@ -27,6 +27,7 @@
 		85AECE4F2C699FF60094FB59 /* LocalNotificationBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE4E2C699FF60094FB59 /* LocalNotificationBcamp.swift */; };
 		85AECE512C6ADF200094FB59 /* HashableBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE502C6ADF200094FB59 /* HashableBcamp.swift */; };
 		85AECE532C6AE7B20094FB59 /* ArraysBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE522C6AE7B20094FB59 /* ArraysBcamp.swift */; };
+		85AECE552C6C2F8A0094FB59 /* BackgroundThredBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE542C6C2F8A0094FB59 /* BackgroundThredBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		85AECE4E2C699FF60094FB59 /* LocalNotificationBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBcamp.swift; sourceTree = "<group>"; };
 		85AECE502C6ADF200094FB59 /* HashableBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBcamp.swift; sourceTree = "<group>"; };
 		85AECE522C6AE7B20094FB59 /* ArraysBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBcamp.swift; sourceTree = "<group>"; };
+		85AECE542C6C2F8A0094FB59 /* BackgroundThredBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThredBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				85AECE4E2C699FF60094FB59 /* LocalNotificationBcamp.swift */,
 				85AECE502C6ADF200094FB59 /* HashableBcamp.swift */,
 				85AECE522C6AE7B20094FB59 /* ArraysBcamp.swift */,
+				85AECE542C6C2F8A0094FB59 /* BackgroundThredBcamp.swift */,
 				85AECE452C6856640094FB59 /* Sounds */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
@@ -198,6 +201,7 @@
 				85AECE4F2C699FF60094FB59 /* LocalNotificationBcamp.swift in Sources */,
 				85AECE532C6AE7B20094FB59 /* ArraysBcamp.swift in Sources */,
 				85AECE4B2C685EAE0094FB59 /* HapticsBcamp.swift in Sources */,
+				85AECE552C6C2F8A0094FB59 /* BackgroundThredBcamp.swift in Sources */,
 				85AECE082C6470200094FB59 /* GeometryReaderBcamp.swift in Sources */,
 				852ED4022C6073A50065225F /* ContentView.swift in Sources */,
 				852ED4102C61B5630065225F /* MagnificationGesture.swift in Sources */,
