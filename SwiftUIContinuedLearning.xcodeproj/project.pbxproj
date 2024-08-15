@@ -28,6 +28,7 @@
 		85AECE512C6ADF200094FB59 /* HashableBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE502C6ADF200094FB59 /* HashableBcamp.swift */; };
 		85AECE532C6AE7B20094FB59 /* ArraysBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE522C6AE7B20094FB59 /* ArraysBcamp.swift */; };
 		85AECE552C6C2F8A0094FB59 /* BackgroundThredBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE542C6C2F8A0094FB59 /* BackgroundThredBcamp.swift */; };
+		85AECE572C6C3ED90094FB59 /* WeakSelfBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE562C6C3ED90094FB59 /* WeakSelfBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		85AECE502C6ADF200094FB59 /* HashableBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBcamp.swift; sourceTree = "<group>"; };
 		85AECE522C6AE7B20094FB59 /* ArraysBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBcamp.swift; sourceTree = "<group>"; };
 		85AECE542C6C2F8A0094FB59 /* BackgroundThredBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThredBcamp.swift; sourceTree = "<group>"; };
+		85AECE562C6C3ED90094FB59 /* WeakSelfBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				85AECE502C6ADF200094FB59 /* HashableBcamp.swift */,
 				85AECE522C6AE7B20094FB59 /* ArraysBcamp.swift */,
 				85AECE542C6C2F8A0094FB59 /* BackgroundThredBcamp.swift */,
+				85AECE562C6C3ED90094FB59 /* WeakSelfBcamp.swift */,
 				85AECE452C6856640094FB59 /* Sounds */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
@@ -215,6 +218,7 @@
 				85AECE062C6453F10094FB59 /* ScrollViewReaderBcamp.swift in Sources */,
 				852ED4122C6306E80065225F /* RotationGestureBootcamp.swift in Sources */,
 				85AECE442C6852110094FB59 /* SoundsBcamp.swift in Sources */,
+				85AECE572C6C3ED90094FB59 /* WeakSelfBcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
