@@ -4,6 +4,10 @@
 //
 //  Created by  謝皓昀 on 2024/8/19.
 //
+// Codable protorl
+// weak self
+// DispatchQueue.main.async(background thread)
+// @escaping
 
 import SwiftUI
 
