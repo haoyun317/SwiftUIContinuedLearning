@@ -25,6 +25,17 @@ class DownloadWithEscapingViewModel: ObservableObject {
     func getPost() {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1") else { return }
         
+        downloadData(fromURL: url) { returnedData in
+            if let data = returnedData {
+                guard let newPost = try? JSONDecoder().decode(PostModel.self, from: data) else { return }
+                DispatchQueue.main.async { [weak self] in
+                    self?.posts.append(newPost)
+                }
+            } else {
+                print("No data returned.")
+            }
+        }
+       /*
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard
                 let data = data,
@@ -59,11 +70,22 @@ class DownloadWithEscapingViewModel: ObservableObject {
             let jsonString = String(data: data, encoding: .utf8)
             print(jsonString)
             */
-            guard let newPost = try? JSONDecoder().decode(PostModel.self, from: data) else { return }
-            DispatchQueue.main.async { [weak self] in
-                self?.posts.append(newPost)
+        }.resume()
+        */
+    }
+//@escaping 下載資料時候不會立即完成，所以要這樣寫
+    func downloadData(fromURL url: URL, completionHandler: @escaping(_ data: Data?) -> Void) {
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            guard
+                let data = data,
+                error == nil,
+                let response = response as? HTTPURLResponse,
+                response.statusCode >= 200 && response.statusCode < 300 else {
+                print("Error downloading data...")
+                completionHandler(nil)
+                return
             }
-            
+            completionHandler(data)
             
         }.resume()
     }
