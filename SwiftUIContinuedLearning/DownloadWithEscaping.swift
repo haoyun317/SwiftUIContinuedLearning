@@ -9,6 +9,37 @@ import SwiftUI
 
 class DownloadWithEscapingViewModel: ObservableObject {
     
+    init() {
+        getPost()
+    }
+    
+    func getPost() {
+        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1") else { return }
+        
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            guard let data = data else {
+                print("No Data.")
+                return
+            }
+            guard error == nil else {
+                print("Error: \(String(describing: error))")
+                return
+            }
+            guard let response = response as? HTTPURLResponse else {
+                print("Invalid response.")
+                return
+            }
+            guard response.statusCode >= 200 && response.statusCode < 300 else {
+                print("Status code should be 2xx, but is \(response.statusCode)")
+                return
+            }
+            print("Successfully download data".capitalized)
+            print(data)
+            
+            let jsonString = String(data: data, encoding: .utf8)
+            print(jsonString)
+        }.resume()
+    }
 }
 
 struct DownloadWithEscaping: View {
