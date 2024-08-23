@@ -34,6 +34,7 @@
 		85AECE5D2C717FD00094FB59 /* CodableBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE5C2C717FD00094FB59 /* CodableBcamp.swift */; };
 		85AECE5F2C72CF630094FB59 /* DownloadWithEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE5E2C72CF630094FB59 /* DownloadWithEscaping.swift */; };
 		85AECE612C7572BC0094FB59 /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE602C7572BC0094FB59 /* DownloadWithCombine.swift */; };
+		85AECE632C7829E90094FB59 /* TimerBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE622C7829E90094FB59 /* TimerBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		85AECE5C2C717FD00094FB59 /* CodableBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBcamp.swift; sourceTree = "<group>"; };
 		85AECE5E2C72CF630094FB59 /* DownloadWithEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscaping.swift; sourceTree = "<group>"; };
 		85AECE602C7572BC0094FB59 /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
+		85AECE622C7829E90094FB59 /* TimerBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				85AECE5C2C717FD00094FB59 /* CodableBcamp.swift */,
 				85AECE5E2C72CF630094FB59 /* DownloadWithEscaping.swift */,
 				85AECE602C7572BC0094FB59 /* DownloadWithCombine.swift */,
+				85AECE622C7829E90094FB59 /* TimerBcamp.swift */,
 				85AECE452C6856640094FB59 /* Sounds */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
@@ -239,6 +242,7 @@
 				852ED4122C6306E80065225F /* RotationGestureBootcamp.swift in Sources */,
 				85AECE442C6852110094FB59 /* SoundsBcamp.swift in Sources */,
 				85AECE572C6C3ED90094FB59 /* WeakSelfBcamp.swift in Sources */,
+				85AECE632C7829E90094FB59 /* TimerBcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
