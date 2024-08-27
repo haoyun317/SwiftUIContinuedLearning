@@ -35,6 +35,8 @@
 		85AECE5F2C72CF630094FB59 /* DownloadWithEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE5E2C72CF630094FB59 /* DownloadWithEscaping.swift */; };
 		85AECE612C7572BC0094FB59 /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE602C7572BC0094FB59 /* DownloadWithCombine.swift */; };
 		85AECE632C7829E90094FB59 /* TimerBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE622C7829E90094FB59 /* TimerBcamp.swift */; };
+		85AECE652C7ABE200094FB59 /* SubscriberBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE642C7ABE200094FB59 /* SubscriberBcamp.swift */; };
+		85AECE672C7C14980094FB59 /* FileManagerBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE662C7C14980094FB59 /* FileManagerBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,8 @@
 		85AECE5E2C72CF630094FB59 /* DownloadWithEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscaping.swift; sourceTree = "<group>"; };
 		85AECE602C7572BC0094FB59 /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
 		85AECE622C7829E90094FB59 /* TimerBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBcamp.swift; sourceTree = "<group>"; };
+		85AECE642C7ABE200094FB59 /* SubscriberBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBcamp.swift; sourceTree = "<group>"; };
+		85AECE662C7C14980094FB59 /* FileManagerBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				85AECE5E2C72CF630094FB59 /* DownloadWithEscaping.swift */,
 				85AECE602C7572BC0094FB59 /* DownloadWithCombine.swift */,
 				85AECE622C7829E90094FB59 /* TimerBcamp.swift */,
+				85AECE642C7ABE200094FB59 /* SubscriberBcamp.swift */,
+				85AECE662C7C14980094FB59 /* FileManagerBcamp.swift */,
 				85AECE452C6856640094FB59 /* Sounds */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
@@ -223,6 +229,7 @@
 				85AECE532C6AE7B20094FB59 /* ArraysBcamp.swift in Sources */,
 				85AECE5D2C717FD00094FB59 /* CodableBcamp.swift in Sources */,
 				85AECE4B2C685EAE0094FB59 /* HapticsBcamp.swift in Sources */,
+				85AECE652C7ABE200094FB59 /* SubscriberBcamp.swift in Sources */,
 				85AECE552C6C2F8A0094FB59 /* BackgroundThredBcamp.swift in Sources */,
 				85AECE612C7572BC0094FB59 /* DownloadWithCombine.swift in Sources */,
 				85AECE082C6470200094FB59 /* GeometryReaderBcamp.swift in Sources */,
@@ -239,6 +246,7 @@
 				85AECE242C66F62D0094FB59 /* MultipleSheetBcamp.swift in Sources */,
 				85AECE5B2C6ED9D50094FB59 /* EscapingBcamp.swift in Sources */,
 				85AECE062C6453F10094FB59 /* ScrollViewReaderBcamp.swift in Sources */,
+				85AECE672C7C14980094FB59 /* FileManagerBcamp.swift in Sources */,
 				852ED4122C6306E80065225F /* RotationGestureBootcamp.swift in Sources */,
 				85AECE442C6852110094FB59 /* SoundsBcamp.swift in Sources */,
 				85AECE572C6C3ED90094FB59 /* WeakSelfBcamp.swift in Sources */,
