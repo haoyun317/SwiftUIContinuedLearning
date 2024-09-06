@@ -38,6 +38,7 @@
 		85AECE652C7ABE200094FB59 /* SubscriberBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE642C7ABE200094FB59 /* SubscriberBcamp.swift */; };
 		85AECE672C7C14980094FB59 /* FileManagerBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE662C7C14980094FB59 /* FileManagerBcamp.swift */; };
 		85BDC6272C87F747003DA8FA /* CacheBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC6262C87F747003DA8FA /* CacheBcamp.swift */; };
+		85BDC6292C8A980B003DA8FA /* AccessibilityTextBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		85AECE642C7ABE200094FB59 /* SubscriberBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBcamp.swift; sourceTree = "<group>"; };
 		85AECE662C7C14980094FB59 /* FileManagerBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBcamp.swift; sourceTree = "<group>"; };
 		85BDC6262C87F747003DA8FA /* CacheBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBcamp.swift; sourceTree = "<group>"; };
+		85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTextBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				85AECE642C7ABE200094FB59 /* SubscriberBcamp.swift */,
 				85AECE662C7C14980094FB59 /* FileManagerBcamp.swift */,
 				85BDC6262C87F747003DA8FA /* CacheBcamp.swift */,
+				85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */,
 				85AECE452C6856640094FB59 /* Sounds */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
@@ -239,6 +242,7 @@
 				852ED4022C6073A50065225F /* ContentView.swift in Sources */,
 				85AECE5F2C72CF630094FB59 /* DownloadWithEscaping.swift in Sources */,
 				852ED4102C61B5630065225F /* MagnificationGesture.swift in Sources */,
+				85BDC6292C8A980B003DA8FA /* AccessibilityTextBcamp.swift in Sources */,
 				85BDC6272C87F747003DA8FA /* CacheBcamp.swift in Sources */,
 				85AECE592C6D8DC80094FB59 /* TypealiasBcamp.swift in Sources */,
 				852ED4162C631A130065225F /* DragGesture2.swift in Sources */,
