@@ -39,6 +39,7 @@
 		85AECE672C7C14980094FB59 /* FileManagerBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AECE662C7C14980094FB59 /* FileManagerBcamp.swift */; };
 		85BDC6272C87F747003DA8FA /* CacheBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC6262C87F747003DA8FA /* CacheBcamp.swift */; };
 		85BDC6292C8A980B003DA8FA /* AccessibilityTextBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */; };
+		85BDC62B2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC62A2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		85AECE662C7C14980094FB59 /* FileManagerBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBcamp.swift; sourceTree = "<group>"; };
 		85BDC6262C87F747003DA8FA /* CacheBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBcamp.swift; sourceTree = "<group>"; };
 		85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTextBcamp.swift; sourceTree = "<group>"; };
+		85BDC62A2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessibilityColorsBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				85AECE662C7C14980094FB59 /* FileManagerBcamp.swift */,
 				85BDC6262C87F747003DA8FA /* CacheBcamp.swift */,
 				85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */,
+				85BDC62A2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift */,
 				85AECE452C6856640094FB59 /* Sounds */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
@@ -253,6 +256,7 @@
 				852ED40E2C6074270065225F /* LongPressGesture.swift in Sources */,
 				85AECE242C66F62D0094FB59 /* MultipleSheetBcamp.swift in Sources */,
 				85AECE5B2C6ED9D50094FB59 /* EscapingBcamp.swift in Sources */,
+				85BDC62B2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift in Sources */,
 				85AECE062C6453F10094FB59 /* ScrollViewReaderBcamp.swift in Sources */,
 				85AECE672C7C14980094FB59 /* FileManagerBcamp.swift in Sources */,
 				852ED4122C6306E80065225F /* RotationGestureBootcamp.swift in Sources */,
