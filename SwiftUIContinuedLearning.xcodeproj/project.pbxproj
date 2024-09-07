@@ -40,6 +40,7 @@
 		85BDC6272C87F747003DA8FA /* CacheBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC6262C87F747003DA8FA /* CacheBcamp.swift */; };
 		85BDC6292C8A980B003DA8FA /* AccessibilityTextBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */; };
 		85BDC62B2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC62A2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift */; };
+		85BDC62D2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC62C2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		85BDC6262C87F747003DA8FA /* CacheBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBcamp.swift; sourceTree = "<group>"; };
 		85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTextBcamp.swift; sourceTree = "<group>"; };
 		85BDC62A2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessibilityColorsBcamp.swift; sourceTree = "<group>"; };
+		85BDC62C2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessibilityVoiceOverBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				85BDC6262C87F747003DA8FA /* CacheBcamp.swift */,
 				85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */,
 				85BDC62A2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift */,
+				85BDC62C2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift */,
 				85AECE452C6856640094FB59 /* Sounds */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
@@ -263,6 +266,7 @@
 				85AECE442C6852110094FB59 /* SoundsBcamp.swift in Sources */,
 				85AECE572C6C3ED90094FB59 /* WeakSelfBcamp.swift in Sources */,
 				85AECE632C7829E90094FB59 /* TimerBcamp.swift in Sources */,
+				85BDC62D2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
