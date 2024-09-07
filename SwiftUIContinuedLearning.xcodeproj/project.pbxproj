@@ -41,6 +41,7 @@
 		85BDC6292C8A980B003DA8FA /* AccessibilityTextBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */; };
 		85BDC62B2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC62A2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift */; };
 		85BDC62D2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC62C2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift */; };
+		85BDC62F2C8BEA5C003DA8FA /* AlignmentGuideBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC62E2C8BEA5C003DA8FA /* AlignmentGuideBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTextBcamp.swift; sourceTree = "<group>"; };
 		85BDC62A2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessibilityColorsBcamp.swift; sourceTree = "<group>"; };
 		85BDC62C2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessibilityVoiceOverBcamp.swift; sourceTree = "<group>"; };
+		85BDC62E2C8BEA5C003DA8FA /* AlignmentGuideBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				85BDC6282C8A980B003DA8FA /* AccessibilityTextBcamp.swift */,
 				85BDC62A2C8AAC62003DA8FA /* AssessibilityColorsBcamp.swift */,
 				85BDC62C2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift */,
+				85BDC62E2C8BEA5C003DA8FA /* AlignmentGuideBcamp.swift */,
 				85AECE452C6856640094FB59 /* Sounds */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
@@ -267,6 +270,7 @@
 				85AECE572C6C3ED90094FB59 /* WeakSelfBcamp.swift in Sources */,
 				85AECE632C7829E90094FB59 /* TimerBcamp.swift in Sources */,
 				85BDC62D2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift in Sources */,
+				85BDC62F2C8BEA5C003DA8FA /* AlignmentGuideBcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
