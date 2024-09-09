@@ -43,6 +43,7 @@
 		85BDC62D2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC62C2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift */; };
 		85BDC62F2C8BEA5C003DA8FA /* AlignmentGuideBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC62E2C8BEA5C003DA8FA /* AlignmentGuideBcamp.swift */; };
 		85BDC6312C8BF80C003DA8FA /* VisualEffectBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC6302C8BF80C003DA8FA /* VisualEffectBcamp.swift */; };
+		85BDC6332C8E872C003DA8FA /* ScrollViewPagingBcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDC6322C8E872C003DA8FA /* ScrollViewPagingBcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		85BDC62C2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessibilityVoiceOverBcamp.swift; sourceTree = "<group>"; };
 		85BDC62E2C8BEA5C003DA8FA /* AlignmentGuideBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideBcamp.swift; sourceTree = "<group>"; };
 		85BDC6302C8BF80C003DA8FA /* VisualEffectBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBcamp.swift; sourceTree = "<group>"; };
+		85BDC6322C8E872C003DA8FA /* ScrollViewPagingBcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPagingBcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				85BDC62C2C8BDF4A003DA8FA /* AssessibilityVoiceOverBcamp.swift */,
 				85BDC62E2C8BEA5C003DA8FA /* AlignmentGuideBcamp.swift */,
 				85BDC6302C8BF80C003DA8FA /* VisualEffectBcamp.swift */,
+				85BDC6322C8E872C003DA8FA /* ScrollViewPagingBcamp.swift */,
 				85AECE452C6856640094FB59 /* Sounds */,
 				852ED4032C6073A80065225F /* Assets.xcassets */,
 				852ED4052C6073A80065225F /* Preview Content */,
@@ -256,6 +259,7 @@
 				852ED4102C61B5630065225F /* MagnificationGesture.swift in Sources */,
 				85BDC6292C8A980B003DA8FA /* AccessibilityTextBcamp.swift in Sources */,
 				85BDC6272C87F747003DA8FA /* CacheBcamp.swift in Sources */,
+				85BDC6332C8E872C003DA8FA /* ScrollViewPagingBcamp.swift in Sources */,
 				85AECE592C6D8DC80094FB59 /* TypealiasBcamp.swift in Sources */,
 				852ED4162C631A130065225F /* DragGesture2.swift in Sources */,
 				852ED4142C630BCF0065225F /* DragGustureBootcamp.swift in Sources */,

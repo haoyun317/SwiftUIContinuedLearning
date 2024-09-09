@@ -21,7 +21,7 @@ struct VisualEffectBcamp: View {
                         .background(Color.orange)
                         .visualEffect { content, geometry in
                             content
-                                .offset(x: geometry.frame(in: .global).minY * 0.09)
+                                .offset(x: geometry.frame(in: .global).minY * 0.45)
                         }
                 }
             }
